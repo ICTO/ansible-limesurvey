@@ -1,8 +1,8 @@
 ---
 limesurvey_with_services: true
 limesurvey:
-  url: 'https://www.limesurvey.org/en/stable-release?download=1283:limesurvey206plus-build150612targz'
-  package: 'limesurvey206plus-build150612.tar'
+  url: 'https://www.limesurvey.org/en/stable-release?download=1304:limesurvey206plus-build150625targz'
+  package: 'limesurvey206plus-build150625.tar'
   admin:
     email: 'your-email@example.net'
     password: '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'
@@ -18,6 +18,10 @@ limesurvey:
       - 'php5-imap'
       - 'libapache2-mod-php5'
       - 'php5-mysql'
+      - 'tar'
+      - 'unzip'
+      - 'bzip2'
+      - 'gzip'
   web:
     root: '/var/www/html'
     user: 'www-data'
